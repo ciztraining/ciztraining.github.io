@@ -578,7 +578,16 @@ section {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
+  padding: 50px 30px;
+  width: 100%;
+}
+
+.why-us .icon-boxes .main-box-icon {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 65px 30px;
   width: 100%;
 }
 
@@ -1453,7 +1462,7 @@ section {
 }
 
 #popular-description {
-  margin-top: -0.95em;
+  text-align: left;
 }
 
 #hero-driving_details {
@@ -1684,7 +1693,7 @@ section {
 	width: 100%;
   overflow: hidden;
 	margin: 0 0 20px;
-	padding: 0 0 20px;
+	padding: 0 0 5px;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -1694,7 +1703,7 @@ section {
 
 #featured-courses {
   float: right;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
 .cz-upcoming_courses{
@@ -1850,12 +1859,18 @@ section {
 	-webkit-line-clamp: 2;
 	text-overflow: ellipsis;
 	-webkit-box-orient: vertical;
+  color: #031F49;
+}
+
+.cz-navigation .cz-themeposttitle h3 a,
+.cz-themeposttitle h3 a:hover{
+  color: #61B0DF;
 }
 
 .preloader {
   opacity: 0;
   pointer-events: none;
-  background-color: #031F49;
+  backgrorgb(45, 50, 58)or: #031F49;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -1977,4 +1992,308 @@ section {
 
 .text_2 {
   margin-left: 1.5em;
+}
+
+.cz-innerbanner{
+	width: 100%;
+	float: left;
+  margin-top: 1em;
+}
+
+.cz-breadcrumb {
+	margin:0;
+	padding: 0;
+	color: #666;
+	float: left;
+	list-style: none;
+	text-align: right;
+	text-transform: capitalize;
+	font:13px/16px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+.cz-breadcrumb li{
+	width:auto;
+	float: left;
+	padding:0 15px;
+	position:relative;
+	list-style-type:none;
+	line-height:inherit;
+}
+
+.cz-prev,
+.cz-next{
+	top:0;
+	right:0;
+	font-size:14px;
+	cursor:pointer;
+	position:absolute;
+}
+
+.cz-prev span,
+.cz-next span{
+	color:#373542;
+	display:block;
+	line-height:16px;
+	margin:0 14px 0 0;
+}
+
+.cz-prev{
+	top:-2px;
+	right:40px;
+	text-align:left;
+}
+
+.cz-next{
+	text-align:right;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.cz-prev span:after,
+.cz-next span:after{
+	content:'';
+	top:50%;
+	left:15px;
+	width:20px;
+	height:1px;
+	z-index:-1;
+	opacity:0;
+	background:#373542;
+	position:absolute;
+	visibility:hidden;
+}
+
+.cz-prev:hover span:after,
+.cz-next:hover span:after{
+	opacity:1;
+	visibility:visible;
+}
+
+.cz-prev:hover span:after,
+.cz-next:hover span:after{left:3px;}
+
+.cz-pagination ul li.cz-active a,
+.cz-pagination ul li a:hover,
+.cz-pagination ul li.cz-nextpage a:hover,
+.cz-pagination ul li.cz-prevpage a:hover,
+.cz-pagination ul li.cz-nextpage a:hover i,
+.cz-pagination ul li.cz-prevpage a:hover i{
+	color: #fff;
+	background: #333;
+}
+
+.cz-poststyleswitcher li a:hover,
+.cz-poststyleswitcher li a:hover i,
+.cz-poststyleswitcher li.cz-active a,
+.cz-poststyleswitcher li a:hover i{color: #fff;}
+.cz-poststyleswitcher li a i{
+	display: block;
+	line-height: inherit;
+}
+
+.cz-optionset li a:hover,
+.cz-optionset li a.cz-active{color: #333;}
+.cz-optionset li a:before{
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	content: '';
+	position: absolute;
+}
+
+.cz-optionset li a:hover:before,
+.cz-optionset li a.cz-active:before{width: 100%;}
+.cz-galleryfilterable{
+	clear: both;
+	margin: -5px;
+	overflow: hidden;
+}
+
+#bread_crumb li a {
+  color: #031F49;
+}
+
+#bread_crumb .cz-active {
+  color: #61B0DF;
+}
+
+.cz-breadcrumb li:after{
+	top:0;
+	left:-3px;
+	content:'\f105';
+	position:absolute;
+	font-size: inherit;
+	line-height: inherit;
+	font-family: 'FontAwesome';
+  color: #ffa587;
+}
+
+.cz-breadcrumb li:first-child {
+  padding-left: 0;
+}
+
+.cz-breadcrumb li:first-child:after {
+  display: none;
+}
+
+.cz-breadcrumb li a {
+  display:block;
+}
+
+.cz-widget_training-calender{
+  background-color: #031F49 !important;
+}
+
+#thumbnail-content {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -1em;
+}
+
+#main-box_icon {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -2.5em;
+  margin-left: -0.1em;
+}
+
+#main-box_ico {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -1.5em;
+  margin-left: -0.1em;
+}
+
+#main-box_ic {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -1.5em;
+  margin-left: -0.1em;
+}
+
+#main-box_icon a img {
+  border-radius: 10px;
+}
+
+#main-box_ico a img {
+  border-radius: 10px;
+}
+
+#main-box_ic a img {
+  border-radius: 10px;
+}
+
+#thumbnail-content a img {
+  border-radius: 10px;
+}
+
+.cs__content {
+  margin-bottom: -4em;
+}
+
+.cz-themepostcontent {
+	width: 100%;
+	float: left;
+}
+
+.cz-themeposttags {
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	list-style: none;
+}
+
+.cz-themepostcontent .cz-themeposttags{margin:0 0 10px;}
+.cz-themeposttags li{
+	float: left;
+	padding: 0 2px 0 5px;
+	position: relative;
+	line-height: inherit;
+	list-style-type: none;
+}
+
+.cz-themeposttags li:first-child{padding-left: 0;}
+.cz-themeposttags li + li:before{
+	top: 0;
+	left: 0;
+	content: ',';
+	position: absolute;
+}
+
+.cz-themeposttags li a{
+	color: #666;
+	display: block;
+	line-height: inherit;
+  margin-left: -2.4em !important;
+}
+
+.cz-themeposttitle{
+	width: 100%;
+	float: left;
+	margin: 0 0 13px;
+	padding: 2px 0 10px;
+	border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.cz-matadata{
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	list-style: none;
+  margin-left: -2.5em;
+}
+
+.cz-matadata li{
+	float: left;
+	position: relative;
+	padding: 0 7px 0 8px;
+	line-height: inherit;
+	list-style-type: none;
+}
+
+.cz-matadata li:first-child{padding-left: 0;}
+.cz-matadata li + li:before{
+	top: 4px;
+	left: 0;
+	content: '';
+	width: 1px;
+	height: 9px;
+	position: absolute;
+	background: #b2b2b2;
+}
+
+.cz-matadata li a{
+	color: #666;
+	display: block;
+	line-height: inherit;
+}
+
+.cz-matadata li a i,
+.cz-matadata li a span{
+	float: left;
+	line-height: inherit;
+}
+
+.cz-matadata li a i {
+  padding: 0 4px 0 0;
+}
+
+.cz-pricebox{
+	float: right;
+	text-transform: capitalize;
+	font: 400 16px/16px'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+.cz-pricebox a {
+  color: #031F49;
+}
+
+#icon-popular {
+  font-size: 15px;
 }
